@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 26, 173);
+}
+a:hover{
+    color: #ff1d1d;
+}
+.header{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    margin:0%;
+    background-color: rgb(91, 250, 112);
+}
+h1{
+    margin-left: 530px;
+    font-size: 60px;
+}
+div.header>p{
+    margin-left: 280px;
+    margin-top: 18px;
+    word-spacing: -5px;
+}
+div.container{
+    padding: 20px;
+}
+.for{ 
+    word-spacing: 10px;
+    background-color: aqua;
+    color: red;
+    font-size: 25px;
+    text-shadow: 0.5px 0.5px 0px rgb(17, 17, 26);
+    text-decoration: underline rgb(7, 7, 5);
+    padding: 30px;
+}
+div.container span{
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.a{ 
+    color: rgb(248, 4, 4);
+    text-shadow: 1px 2px 5px rgb(107, 115, 233);
+}
+.b{
+    color: rgb(255, 255, 0);
+    text-shadow: 1px 2px 5px rgb(107, 115, 233);
+}
+.c{
+    color: rgb(255, 166, 0);
+    text-shadow: 1px 2px 5px rgb(107, 115, 233);
+}
+.book{
+    color: rgb(5, 145, 5);
+    text-shadow: 1px 2px 5px darkgray;
+}
+img{
+    margin-left: 50px;
+    margin-top: 50px;
+    
+    
+}
+.form{ background-color: rgb(201, 198, 198);
+    border: 1px solid rgb(32, 35, 240);
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.top{
+    margin-left: 90%;
+    background-color: rgba(243, 2, 62, 0.5);
+    font-family: arial;
+    font-size: 2.5em;
+    color: wheat;
+    position: fixed;
+    border-radius: 3px 25px 3px 25px;
+    text-decoration: none;
+    padding: 10px;
+}
+.top:hover {
+    background-color: #ff1d1d;
+    color: wheat;
+}
+input{
+        padding: 10px;
+        margin-top: 10px;
+        background-color: rgb(160, 165, 163);
+        border: none;
+        border-radius: 2px;
+}
+input:focus{
+    background-color: #cacf7e;
+}
+.submit{
+    background-color: rgb(32, 32, 218);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    
+}
+.submit:hover{
+    background-color: rgb(255, 0, 0);
+}
+textarea{
+    margin-top: 10px;
+    background-color: rgb(160, 165, 163);
+    border: none;
+    padding: 5px;
+    border-radius: 2px;
+}
+textarea:focus{
+    background-color: #cacf7e;
+}
+::placeholder{
+    color: rgb(71, 69, 69);
+}
+h3{
+    color: rgb(6, 6, 202);
+}
